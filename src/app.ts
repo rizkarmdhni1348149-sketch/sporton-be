@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 import authRoutes from "./routes/auth.routes";
 import categoryRoutes from "./routes/category.routes"
-import productRoutes from "../src/routes/product.routes"
+import productRoutes from "./routes/product.routes"
 import transactionRoutes from "./routes/transaction.routes";
 import bankRoutes from "./routes/bank.routes";
 import { authenticate } from "./middlewares/auth.middleware";
